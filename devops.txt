@@ -1,0 +1,438 @@
+Folder PATH listing for volume OS
+Volume serial number is FA08-F2DF
+C:.
+¦   00 - Intro.pptx
+¦   2024 SoL_ADXD2SD4M4.docx
+¦   Install Docker Desktop.txt
+¦   M4 Publish.zip
+¦   OneDrive.url
+¦   
++---1-SDLC and DevOps
+¦       01 SDLC and Agile.pptx
+¦       02 The Need for DevOps.pptx
+¦       03 Introducing DevOps.pptx
+¦       Lack of DevOps - Case Study.docx
+¦       
++---2-Dockers
+¦   ¦   1-Docker basics.docx
+¦   ¦   2.1-Dockerizing a Node app Using DockerFile.docx
+¦   ¦   2.2-Docker MySQL Using DockerFiles.docx
+¦   ¦   3-Docker Networking.docx
+¦   ¦   4-Docker Compose.docx
+¦   ¦   
+¦   +---Slides
+¦           1-Docker basics.pptx
+¦           2-Dockerfile.pptx
+¦           3- Docker networking.pptx
+¦           4-Docker Compose.pptx
+¦           5- Docker Swarm.pptx
+¦           
++---3-Jenkins
+¦   ¦   clone quiz-api instructions.txt
+¦   ¦   EBS_GIT_pipe.pptx
+¦   ¦   Jenkins Slides.pptx
+¦   ¦   Lab1.docx
+¦   ¦   Lab2.pptx
+¦   ¦   
+¦   +---calculator-jenkins
+¦   ¦   ¦   .classpath
+¦   ¦   ¦   .gitignore
+¦   ¦   ¦   .project
+¦   ¦   ¦   pom.xml
+¦   ¦   ¦   
+¦   ¦   +---src
+¦   ¦       +---main
+¦   ¦       ¦   +---java
+¦   ¦       ¦       +---com
+¦   ¦       ¦           +---agile
+¦   ¦       ¦               +---calculator
+¦   ¦       ¦               ¦       Calculator.java
+¦   ¦       ¦               ¦       
+¦   ¦       ¦               +---utils
+¦   ¦       ¦                       Utils.java
+¦   ¦       ¦                       
+¦   ¦       +---test
+¦   ¦           +---java
+¦   ¦               +---com
+¦   ¦                   +---agile
+¦   ¦                       +---calculator
+¦   ¦                               CalculatorTest.java
+¦   ¦                               
+¦   +---Quiz app
+¦       +---quiz-api
+¦       ¦   ¦   .gitignore
+¦       ¦   ¦   package-lock.json
+¦       ¦   ¦   package.json
+¦       ¦   ¦   sample.env
+¦       ¦   ¦   
+¦       ¦   +---src
+¦       ¦       ¦   index.js
+¦       ¦       ¦   
+¦       ¦       +---example-api-calls
+¦       ¦       ¦       create-quiz.http
+¦       ¦       ¦       delete-quiz.http
+¦       ¦       ¦       delete-room.http
+¦       ¦       ¦       get-quiz.http
+¦       ¦       ¦       get-quizzes.http
+¦       ¦       ¦       get-state.http
+¦       ¦       ¦       host-quiz.http
+¦       ¦       ¦       join-quiz.http
+¦       ¦       ¦       next-stage.http
+¦       ¦       ¦       submit-answer.http
+¦       ¦       ¦       
+¦       ¦       +---sample-quizzes
+¦       ¦       ¦       demo-quiz-1.js
+¦       ¦       ¦       demo-quiz-2.js
+¦       ¦       ¦       
+¦       ¦       +---services
+¦       ¦       ¦       db.js
+¦       ¦       ¦       errors.js
+¦       ¦       ¦       quiz.js
+¦       ¦       ¦       
+¦       ¦       +---tests
+¦       ¦               quiz.deleteQuizAsync.spec.js
+¦       ¦               quiz.deleteRoomAsync.spec.js
+¦       ¦               quiz.getQuizAsync.spec.js
+¦       ¦               quiz.getStateAsync.spec.js
+¦       ¦               quiz.hostQuizAsync.spec.js
+¦       ¦               quiz.joinQuizAsync.spec.js
+¦       ¦               quiz.nextStageAsync.spec.js
+¦       ¦               quiz.saveQuizAsync.spec.js
+¦       ¦               quiz.submitAnswerAsync.spec.js
+¦       ¦               sample-data.js
+¦       ¦               
+¦       +---quiz-web
+¦           ¦   .gitignore
+¦           ¦   karma.conf.js
+¦           ¦   package-lock.json
+¦           ¦   package.json
+¦           ¦   
+¦           +---src
+¦           ¦   ¦   app.config.js
+¦           ¦   ¦   app.css
+¦           ¦   ¦   app.js
+¦           ¦   ¦   favicon.ico
+¦           ¦   ¦   index.html
+¦           ¦   ¦   
+¦           ¦   +---controllers
+¦           ¦   ¦       host-quiz.controller.js
+¦           ¦   ¦       join-quiz.controller.js
+¦           ¦   ¦       play-quiz.controller.js
+¦           ¦   ¦       quiz-list.controller.js
+¦           ¦   ¦       
+¦           ¦   +---services
+¦           ¦   ¦       config.service.js
+¦           ¦   ¦       host.service.js
+¦           ¦   ¦       play.service.js
+¦           ¦   ¦       quiz.service.js
+¦           ¦   ¦       
+¦           ¦   +---views
+¦           ¦           host-quiz.view.html
+¦           ¦           join-quiz.view.html
+¦           ¦           not-found.view.html
+¦           ¦           play-quiz.view.html
+¦           ¦           quiz-list.view.html
+¦           ¦           
+¦           +---tests
+¦                   join-quiz.controller.spec.js
+¦                   
++---M4 Publish
+¦   ¦   00 - Intro.pptx
+¦   ¦   
+¦   +---1-SDLC and DevOps
+¦   ¦       01 SDLC and Agile.pptx
+¦   ¦       02 The Need for DevOps.pptx
+¦   ¦       03 Introducing DevOps.pptx
+¦   ¦       Lack of DevOps - Case Study.docx
+¦   ¦       
+¦   +---2-Dockers
+¦   ¦   ¦   1-Docker basics.docx
+¦   ¦   ¦   2.1-Dockerizing a Node app Using DockerFile.docx
+¦   ¦   ¦   2.2-Docker MySQL Using DockerFiles.docx
+¦   ¦   ¦   3-Docker Networking.docx
+¦   ¦   ¦   4-Docker Compose.docx
+¦   ¦   ¦   
+¦   ¦   +---Slides
+¦   ¦           1-Docker basics.pptx
+¦   ¦           2-Dockerfile.pptx
+¦   ¦           3- Docker networking.pptx
+¦   ¦           4-Docker Compose.pptx
+¦   ¦           5- Docker Swarm.pptx
+¦   ¦           
+¦   +---3-Jenkins
+¦       ¦   Jenkins Slides.pptx
+¦       ¦   Lab1.docx
+¦       ¦   Lab2.pptx
+¦       ¦   
+¦       +---calculator-jenkins
+¦           ¦   .classpath
+¦           ¦   .gitignore
+¦           ¦   .project
+¦           ¦   pom.xml
+¦           ¦   
+¦           +---src
+¦               +---main
+¦               ¦   +---java
+¦               ¦       +---com
+¦               ¦           +---agile
+¦               ¦               +---calculator
+¦               ¦               ¦       Calculator.java
+¦               ¦               ¦       
+¦               ¦               +---utils
+¦               ¦                       Utils.java
+¦               ¦                       
+¦               +---test
+¦                   +---java
+¦                       +---com
+¦                           +---agile
+¦                               +---calculator
+¦                                       CalculatorTest.java
+¦                                       
++---Ryan notes and solutions
+    ¦   README.md
+    ¦   
+    +---Docker Basics
+    ¦       docker cmd log.sh
+    ¦       Screenshot 2025-04-14 145448.png
+    ¦       Screenshot 2025-04-14 145740.png
+    ¦       Screenshot 2025-04-14 145806.png
+    ¦       Screenshot 2025-04-14 145822.png
+    ¦       Screenshot 2025-04-14 150009.png
+    ¦       Screenshot 2025-04-14 150027.png
+    ¦       Screenshot 2025-04-14 150210.png
+    ¦       Screenshot 2025-04-14 150229.png
+    ¦       Screenshot 2025-04-14 150257.png
+    ¦       Screenshot 2025-04-14 150318.png
+    ¦       Screenshot 2025-04-14 150426.png
+    ¦       Screenshot 2025-04-14 152124.png
+    ¦       Screenshot 2025-04-14 152406.png
+    ¦       Screenshot 2025-04-14 153325.png
+    ¦       Screenshot 2025-04-14 153404.png
+    ¦       Screenshot 2025-04-14 153503.png
+    ¦       
+    +---docker compose
+    ¦   ¦   compose.yaml
+    ¦   ¦   docker compose cmd log
+    ¦   ¦   
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-16 094759.png
+    ¦           Screenshot 2025-04-16 094817.png
+    ¦           Screenshot 2025-04-16 094850.png
+    ¦           Screenshot 2025-04-16 095815.png
+    ¦           Screenshot 2025-04-16 100233.png
+    ¦           Screenshot 2025-04-16 100244.png
+    ¦           Screenshot 2025-04-16 100306.png
+    ¦           
+    +---Docker MogoDB
+    ¦   ¦   docker mongo db cmd log
+    ¦   ¦   
+    ¦   +---docker-compose-db
+    ¦   ¦       .dockerignore
+    ¦   ¦       compose.yaml
+    ¦   ¦       Dockerfile
+    ¦   ¦       index.js
+    ¦   ¦       package.json
+    ¦   ¦       README.Docker.md
+    ¦   ¦       
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-16 101543.png
+    ¦           Screenshot 2025-04-16 101909.png
+    ¦           Screenshot 2025-04-16 102514.png
+    ¦           Screenshot 2025-04-16 102911.png
+    ¦           Screenshot 2025-04-16 104819.png
+    ¦           Screenshot 2025-04-16 113553.png
+    ¦           Screenshot 2025-04-16 113758.png
+    ¦           Screenshot 2025-04-16 114010.png
+    ¦           Screenshot 2025-04-16 114141.png
+    ¦           Screenshot 2025-04-16 114224.png
+    ¦           Screenshot 2025-04-16 115154.png
+    ¦           Screenshot 2025-04-16 115718.png
+    ¦           
+    +---Docker Mysql App
+    ¦   ¦   ,dockerignore
+    ¦   ¦   .gitignore
+    ¦   ¦   Docker Mysql App Cmd log
+    ¦   ¦   Dockerfile
+    ¦   ¦   index.html
+    ¦   ¦   package-lock.json
+    ¦   ¦   package.json
+    ¦   ¦   server.js
+    ¦   ¦   
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-15 115655.png
+    ¦           Screenshot 2025-04-15 133025.png
+    ¦           Screenshot 2025-04-15 133625.png
+    ¦           Screenshot 2025-04-15 133742.png
+    ¦           Screenshot 2025-04-15 134130.png
+    ¦           Screenshot 2025-04-15 134820.png
+    ¦           Screenshot 2025-04-15 134938.png
+    ¦           
+    +---Docker Networking App
+    ¦   ¦   Docker Networking App Cmd log
+    ¦   ¦   
+    ¦   +---Docker-Networking
+    ¦   ¦   +---order-service
+    ¦   ¦   ¦       Dockerfile
+    ¦   ¦   ¦       package.json
+    ¦   ¦   ¦       server.js
+    ¦   ¦   ¦       
+    ¦   ¦   +---product-service
+    ¦   ¦   ¦       Dockerfile
+    ¦   ¦   ¦       package.json
+    ¦   ¦   ¦       server.js
+    ¦   ¦   ¦       
+    ¦   ¦   +---user-service
+    ¦   ¦           Dockerfile
+    ¦   ¦           package.json
+    ¦   ¦           service.js
+    ¦   ¦           
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-15 140304.png
+    ¦           Screenshot 2025-04-15 140418.png
+    ¦           Screenshot 2025-04-15 140548.png
+    ¦           Screenshot 2025-04-15 140621.png
+    ¦           Screenshot 2025-04-15 140649.png
+    ¦           Screenshot 2025-04-15 141114.png
+    ¦           Screenshot 2025-04-15 141144.png
+    ¦           Screenshot 2025-04-15 145633.png
+    ¦           Screenshot 2025-04-15 145955.png
+    ¦           Screenshot 2025-04-15 150351.png
+    ¦           
+    +---Docker Node App
+    ¦   ¦   Docker Node App Cmd log
+    ¦   ¦   
+    ¦   +---Docker_App
+    ¦   ¦       .dockerignore
+    ¦   ¦       .gitignore
+    ¦   ¦       Dockerfile
+    ¦   ¦       package-lock.json
+    ¦   ¦       package.json
+    ¦   ¦       server.js
+    ¦   ¦       
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-15 101544.png
+    ¦           Screenshot 2025-04-15 101551.png
+    ¦           Screenshot 2025-04-15 101603.png
+    ¦           Screenshot 2025-04-15 101706.png
+    ¦           Screenshot 2025-04-15 101834.png
+    ¦           Screenshot 2025-04-15 102500.png
+    ¦           Screenshot 2025-04-15 102626.png
+    ¦           Screenshot 2025-04-15 102643.png
+    ¦           Screenshot 2025-04-15 103635.png
+    ¦           Screenshot 2025-04-15 103805.png
+    ¦           
+    +---Docker Python App
+    ¦   ¦   Docker Pyhton App Cmd log
+    ¦   ¦   
+    ¦   +---Python-Docker
+    ¦   ¦       coolApp.py
+    ¦   ¦       Dockerfile
+    ¦   ¦       
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-15 111355.png
+    ¦           Screenshot 2025-04-15 111738.png
+    ¦           Screenshot 2025-04-15 112820.png
+    ¦           Screenshot 2025-04-15 113106.png
+    ¦           Screenshot 2025-04-15 113159.png
+    ¦           Screenshot 2025-04-15 113413.png
+    ¦           
+    +---JenkinsLab1
+    ¦   ¦   compose.yaml
+    ¦   ¦   jenkinsLab1 cmd log.txt
+    ¦   ¦   
+    ¦   +---Screenshots
+    ¦           Screenshot 2025-04-16 135423.png
+    ¦           Screenshot 2025-04-16 135524.png
+    ¦           Screenshot 2025-04-16 141240.png
+    ¦           
+    +---JenkinsLab2
+        ¦   JenkinsLab2 cmd log.txt
+        ¦   
+        +---calculator-jenkins
+        ¦   +---calculator-jenkins
+        ¦       ¦   pom.xml
+        ¦       ¦   
+        ¦       +---src
+        ¦           +---main
+        ¦           ¦   +---java
+        ¦           ¦       +---com
+        ¦           ¦           +---agile
+        ¦           ¦               +---calculator
+        ¦           ¦               ¦       Calculator.java
+        ¦           ¦               ¦       
+        ¦           ¦               +---utils
+        ¦           ¦                       Utils.java
+        ¦           ¦                       
+        ¦           +---test
+        ¦               +---java
+        ¦                   +---com
+        ¦                       +---agile
+        ¦                           +---calculator
+        ¦                                   CalculatorTest.java
+        ¦                                   
+        +---Screenshots
+                Screenshot 2025-04-16 141945.png
+                Screenshot 2025-04-16 142157.png
+                Screenshot 2025-04-16 142211.png
+                Screenshot 2025-04-16 143216.png
+                Screenshot 2025-04-16 143227.png
+                Screenshot 2025-04-16 143246.png
+                Screenshot 2025-04-16 143323.png
+                Screenshot 2025-04-16 143400.png
+                Screenshot 2025-04-16 143409.png
+                Screenshot 2025-04-16 143424.png
+                Screenshot 2025-04-16 143520.png
+                Screenshot 2025-04-16 143553.png
+                Screenshot 2025-04-16 143618.png
+                Screenshot 2025-04-16 143625.png
+                Screenshot 2025-04-16 143926.png
+                Screenshot 2025-04-16 144018.png
+                Screenshot 2025-04-16 144030.png
+                Screenshot 2025-04-16 144044.png
+                Screenshot 2025-04-16 144116.png
+                Screenshot 2025-04-16 144127.png
+                Screenshot 2025-04-16 144158.png
+                Screenshot 2025-04-16 144413.png
+                Screenshot 2025-04-16 144441.png
+                Screenshot 2025-04-16 144558.png
+                Screenshot 2025-04-16 144621.png
+                Screenshot 2025-04-16 144712.png
+                Screenshot 2025-04-16 144813.png
+                Screenshot 2025-04-16 144824.png
+                Screenshot 2025-04-16 144845.png
+                Screenshot 2025-04-16 144901.png
+                Screenshot 2025-04-16 145747.png
+                Screenshot 2025-04-16 145829.png
+                Screenshot 2025-04-16 150013.png
+                Screenshot 2025-04-16 150420.png
+                Screenshot 2025-04-16 150435.png
+                Screenshot 2025-04-16 150459.png
+                Screenshot 2025-04-16 150600.png
+                Screenshot 2025-04-16 150612.png
+                Screenshot 2025-04-16 150642.png
+                Screenshot 2025-04-16 150652.png
+                Screenshot 2025-04-16 150725.png
+                Screenshot 2025-04-16 150743.png
+                Screenshot 2025-04-16 150802.png
+                Screenshot 2025-04-16 150819.png
+                Screenshot 2025-04-16 150836.png
+                Screenshot 2025-04-16 150915.png
+                Screenshot 2025-04-16 150928.png
+                Screenshot 2025-04-16 151000.png
+                Screenshot 2025-04-16 151016.png
+                Screenshot 2025-04-16 151129.png
+                Screenshot 2025-04-16 151144.png
+                Screenshot 2025-04-16 151153.png
+                Screenshot 2025-04-16 152003.png
+                Screenshot 2025-04-16 152153.png
+                Screenshot 2025-04-16 152205.png
+                Screenshot 2025-04-16 152236.png
+                Screenshot 2025-04-16 152304.png
+                Screenshot 2025-04-16 152449.png
+                Screenshot 2025-04-16 152508.png
+                Screenshot 2025-04-16 152624.png
+                Screenshot 2025-04-16 152646.png
+                Screenshot 2025-04-16 152724.png
+                Screenshot 2025-04-16 153020.png
+                Screenshot 2025-04-16 153044.png
+                
